@@ -1,0 +1,197 @@
+main{
+
+    max-width:1000px;
+    margin:0 auto;
+    padding:20px;
+}
+
+.start {
+
+    width:50%;
+  
+    padding:10px;
+    color:black;
+}
+
+
+.container{
+
+    width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+
+
+#head{
+
+   
+    padding:20px;
+    max-width:900;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    
+background: linear-gradient(to bottom right, powderblue,rgb(199, 199, 235),rgb(238, 182, 226));   
+      
+
+}
+
+#head:after{
+
+    content:"";
+    display:table;
+    clear:both
+}
+
+.start-end{
+
+    text-align:right;
+    color:rgb(12, 12, 12)
+}
+
+#mid{
+
+    position:relative;
+    height:200px;
+     text-align:left;
+    color:black;
+    z-index:1;
+    
+    padding:100px 20px;
+    overflow:hidden;
+    padding:20px;
+    
+ 
+}
+
+#mid::before{
+
+    content:"";
+    height:300px;
+   
+    position:Absolute;
+    background:url('bg.png') center/cover no-repeat;
+
+    opacity:0.2;
+    z-index:-1;
+     top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#mid button{
+
+    border-radius:10px;
+   
+     background: linear-gradient(to bottom right, rgb(168, 193, 226),rgb(121, 171, 228));
+    height:40px;
+    width:100px;
+    margin-top:20px
+}
+
+#mid h1{
+    font-family: garamond;
+    font-weight:bold
+}
+#topics{
+
+    padding:0px;
+   
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+      background: #f0f4f8;
+  
+   
+  margin: 0;
+}
+
+#topics:after{
+
+     content:"";
+    display:table;
+    clear:both
+}
+
+.topic{
+
+    padding:0px;
+    margin:20px;
+    text-align:top
+    
+}
+
+#mid h2, #mid p,
+#topics h2, #topics li, .bonus li{
+  margin: 0;
+  padding: 5px 0;
+}
+
+#more{
+   padding:30px;
+   
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    
+     background: #f0f4f8;
+   
+  margin: 0;
+
+
+}
+
+#more:after{
+
+     content:"";
+    display:table;
+    clear:both
+}
+
+
+#action{
+
+    padding:20px;
+    text-align:center;
+   
+     background: #f0f4f8;
+}
+
+#action p{
+    margin-left:0.2%
+}
+
+#action button{
+
+    margin-left:0.2%;
+    border-radius:10px;
+     height:40px;
+    width:120px; 
+    
+ background: linear-gradient(to bottom right, rgb(168, 193, 226),rgb(121, 171, 228));
+
+
+
+
+
+}
+
+#query a{
+
+text-decoration:none
+}
+
+#query{
+    
+    text-align:center;
+    
+  padding:20px;
+   
+   
+ background: linear-gradient(to bottom right, powderblue,rgb(199, 199, 235),rgb(238, 182, 226));   
+      
+        
+}
